@@ -17,11 +17,11 @@ require('dotenv').config();
 
 const port = process.env.PORT || '4000';
 
-app.get('/' , (req , res)=>{
+// app.get('/' , (req , res)=>{
 
-    res.send('hello from simple server :)')
+//     res.send('hello from simple server :)')
  
-});
+// });
  
 app.set('port', port);
 app.use(cors());
